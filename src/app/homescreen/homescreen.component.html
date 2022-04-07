@@ -1,0 +1,27 @@
+
+<div class="searchbar">
+    <Span>Search   </Span>
+  <input type="text" class="form-control" name="name" [(ngModel)]="name" placeholder="Name" (ngModelChange)="Search()"/>
+  </div>
+<div class="container">
+    <table class="table table-striped">
+      <thead>
+          <tr>
+            <th>Name</th>
+            <th>Project Count</th>
+            <th>Homepage</th>
+            <th>Default Language</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let program of Programs">
+          <td>{{ program.name }}</td>
+          <td>{{ program.project_count }}</td>
+          <td>{{ program.homepage }}</td>
+          <td>{{ program.default_language }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  

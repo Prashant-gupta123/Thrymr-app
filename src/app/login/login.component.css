@@ -1,0 +1,54 @@
+
+.form{ 
+width: 300px;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+position: absolute;
+border-radius: 5px;
+border: 2px solid black;
+background-color: rgba(0,0,0, 0.1);
+}
+
+a{
+    cursor: pointer;
+}
+
+.form p{
+    font-weight: 600;
+    padding-top: 3px;
+    margin-left: 100px;
+    font-size: medium;
+
+    
+}
+
+
+.form input{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.form button{
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.form .button1{
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.form h3{
+    margin-left: 65px; 
+}
+
+
+.name {
+    margin-left: 18px;
+}
+#one{
+    margin-left: 50px;
+}
+#two{
+    margin-left: 50px;
+}

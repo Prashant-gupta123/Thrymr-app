@@ -1,0 +1,25 @@
+
+    
+       <div class="form">
+          <form [formGroup] = "loginForm" (ngSubmit) ="loginSubmit()">  
+       <h3 >LOGIN FORM</h3>
+        <p>Email-Id:</p>
+        <input type=text  formControlName = "emailId" class = "mailid"  name="emailid" placeholder="Enter Emailid" required>
+        <div style="visibility:hidden; color: red;"  id="one">
+          *required 
+        </div>
+        
+        <p>Password:</p>
+        <input type=password  formControlName= "password" class = "password" placeholder="Enter Password" required minlength="6">
+        <div style="visibility:hidden; color: red;"  id="two">
+          *required 
+        </div>  
+    
+        <button type = "submit" [disabled]="!loginForm.valid" class="button btn-success" >Submit</button>&nbsp; <br><br>
+    
+          </form>
+          
+    
+    
+        
+         
